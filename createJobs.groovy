@@ -6,13 +6,13 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job') {
+pipelineJob('HelloWorldDockerApp-JOB') {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example.git'
+                        url 'https://github.com/shivamdeep/HelloWorldDockerApp.git'
                     }
                     branch 'master'
                 }
