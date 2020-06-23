@@ -6,3 +6,5 @@ build
 
 .idea/
 /.DS_Store
+/bootstrap-jenkins.iml
+/.project
